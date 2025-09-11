@@ -6,6 +6,6 @@
     <title>Contact</title>
 </head>
 <body>
-    <h1>Hello from Contact page</h1>
+    <h1>Hello from Contact page day 2</h1>
 </body>
 </html>
