@@ -78,6 +78,7 @@
 
     <form method="POST" action="/jobs/{{ $job->id }}" id="delete-form">
         @csrf
+        @method('DELETE')
     </form>
 
 </x-layout>
