@@ -9,9 +9,12 @@
     </p>
 
     <p class="mt-6">
-        <x-button href="/jobs/{{ $job->id }}/edit">
-            Edit
-        </x-button>
+        @can('edit', $job)
+            <x-button href="/jobs/{{ $job->id }}/edit">
+                Edit
+            </x-button>
+        @endcan
+
     </p>
 
 </x-layout>
